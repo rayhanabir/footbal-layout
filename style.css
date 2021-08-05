@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+/* hero area */
+
+.hero-area{
+    background: #2D25A0;
+    margin-bottom: 70px;
+    /* width: 100vw; */
+    /* height: 90vh; */
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-title h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.hero-title{
+    width: 485px;
+    height: 230px;
+    
+}
+.half-width img{
+    width: 557px;
+    height: 438px;
+}
+.anchor-btn{
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    border: none;
+    color: white;
+}
+
+/* player section start */
+
+.player-area{
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 165px;
+}
+.player-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    box-shadow: 10px 10px 16px rgb(183, 192, 200);
+}
+.player img{
+    width: 100%;
+}
+
+/* player area end here */
+
+/* last part start */
+
+.highlights-area{
+    width: 80vw;
+    margin:0 auto;
+    
+}
+.match-highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match-thumbnail img{
+    width: 567px;
+    height: 427px;
+}
