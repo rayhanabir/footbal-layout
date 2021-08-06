@@ -68,6 +68,16 @@ nav ul li a{
 .half-width img{
     width: 557px;
     height: 438px;
+    transition:width 2s, height 2s, transform 2s ;
+    cursor: pointer;
+    transition-delay: 1s;
+    
+}
+.half-width img:hover{
+    width: 580px;
+    height: 460px;
+    transform: rotate(10deg);
+    
 }
 .anchor-btn{
     background: #E02C6D;
@@ -171,8 +181,12 @@ nav ul li a{
    .half-width{
        width: 100%;
    }
+   .half-width h1{
+       margin-bottom: 30px;
+   }
     .half-width img{
         width: 100%;
+        margin-top: 20px;
     }
     .container{
         flex-direction: column;
@@ -202,7 +216,7 @@ nav ul li a{
     }
     
     /* footer section responsiver code here */
-    
+
 
     .box{
         width: 100%;
