@@ -174,20 +174,17 @@ nav ul li a{
         /* background-color:yellow; */
         
     }
-    /* .hero-area{
-        width: 100%;
-    }  */
+   .half-width{
+       width: 100%;
+   }
     .half-width img{
-        width: 400px;
+        width: 100%;
     }
     .container{
         flex-direction: column;
 
     }
-   .player-section{
-    
-    
-   }
+   
     .player-info{
         grid-template-columns: 1fr;
         justify-items: center;
