@@ -131,6 +131,9 @@ nav ul li a{
     width: 567px;
     height: 427px;
 }
+.match-thumbnail:hover .match-thumbnail img{
+    transform: scale(1);
+}
 
 /* fooooter areaaaa */
 
