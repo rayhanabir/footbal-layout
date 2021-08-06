@@ -13,7 +13,7 @@ body{
 .hero-area{
     background: #2D25A0;
     margin-bottom: 70px;
-    /* width: 100vw; */
+    width: 100vw;
     /* height: 90vh; */
    
 }
@@ -21,18 +21,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8%;
     
 }
-.hero-title h1{
+
+.half-width{
+    width: 45%;
+}
+.half-width h1{
     color: white;
     font-size: 64px;
-    font-weight: 700;
-    line-height: 80px;
-}
-.hero-title{
-    width: 485px;
-    height: 230px;
-    
 }
 .half-width img{
     width: 557px;
@@ -78,6 +76,7 @@ body{
 .highlights-area{
     width: 80vw;
     margin:0 auto;
+    margin-bottom: 70px;
     
 }
 .match-highlights{
@@ -88,4 +87,88 @@ body{
 .match-thumbnail img{
     width: 567px;
     height: 427px;
+}
+
+/* fooooter areaaaa */
+
+.footer-area{
+    width: 80vw;
+    /* height: auto; */
+    /* background-color: rgb(158, 71, 71); */
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  
+}
+.box{
+    width: 40vw;
+    height: 30vh;
+    position: relative;
+    
+}
+.footer-logo img{
+    width: 485px;
+    height: 110px;
+}
+
+.social-connection{
+    position: absolute;
+    width: 19vw;
+    top: 112px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    margin: auto;
+}
+.social-connection a{
+    color: rgba(110, 98, 98, 0.411);
+    font-size: 1em;
+    margin-right:8px ;
+}
+
+/* media query start here */
+
+@media screen and (max-width:688px) {
+    
+    .half-width img{
+        width: 400px;
+    }
+    .container{
+        flex-direction: column;
+
+    }
+   
+    .player-info{
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+    }
+    .match-highlights{
+        display: flex;
+        flex-direction: column;
+    }
+    .highlights-area{
+        margin-bottom: 30px;
+    }
+    .match-thumbnail img{
+        width:100% ;
+        height: auto;
+        margin-top: 40px;
+    }
+    
+    .box{
+        width: 100%;
+    }
+    .social-connection {
+        width: auto;
+    }
+   
+    .footer-logo img{
+        width: 100%;
+    }
+
 }
