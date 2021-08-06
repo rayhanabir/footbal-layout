@@ -11,16 +11,16 @@ body{
 
 /* header areaaaa */
 
-/* header{
+header{
     background-color: #2D25A0;
     padding-top: 8px;
-    
 }
 nav {
     display: flex;
     justify-content: space-around;
     
 }
+
 #login-button{
     font-size: 1em;
     color: white;
@@ -37,7 +37,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-} */
+}
 
 /* header area end */
 
@@ -126,23 +126,18 @@ nav ul li a{
 
 .footer-area{
     width: 80vw;
-    /* height: auto; */
-    /* background-color: rgb(158, 71, 71); */
     margin: 0 auto;
-    /* padding: 10px; */
+    
 }
 
 .footer-container{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-  
 }
 .box{
     width: 40vw;
     height: 30vh;
-    position: relative;
-    
+    position: relative; 
 }
 .footer-logo img{
     width: 485px;
@@ -171,8 +166,7 @@ nav ul li a{
 
     .hero-section{
         width: 100%;
-        /* background-color:yellow; */
-        
+      
     }
    .half-width{
        width: 100%;
@@ -182,13 +176,18 @@ nav ul li a{
     }
     .container{
         flex-direction: column;
-
     }
    
+    /* player section style here */
+
     .player-info{
         grid-template-columns: 1fr;
         justify-items: center;
     }
+
+    /* highlights section responsiver code here */
+
+
     .match-highlights{
         display: flex;
         flex-direction: column;
@@ -202,6 +201,9 @@ nav ul li a{
         margin-top: 40px;
     }
     
+    /* footer section responsiver code here */
+    
+
     .box{
         width: 100%;
     }
