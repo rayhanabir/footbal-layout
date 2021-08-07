@@ -34,6 +34,9 @@ nav ul li{
     list-style: none;
     margin-right: 20px;
 }
+nav ul li a:hover{
+    color: #E02C6D;
+}
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -57,7 +60,20 @@ nav ul li a{
     align-items: center;
     
 }
-
+.section__title:hover{
+    color: #E02C6D;
+    animation: bounce;
+    animation-duration: 2s;
+}
+.banner__img:hover{
+    animation:pulse;
+    animation-duration: 2s;
+}
+.player__img:hover{
+    animation: pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+}
 .half-width{
     width: 45%;
 }
@@ -68,17 +84,10 @@ nav ul li a{
 .half-width img{
     width: 557px;
     height: 438px;
-    transition:width 2s, height 2s, transform 2s ;
-    cursor: pointer;
-    transition-delay: 1s;
+    
     
 }
-.half-width img:hover{
-    width: 580px;
-    height: 460px;
-    transform: rotate(10deg);
-    
-}
+
 .anchor-btn{
     background: #E02C6D;
     width: 168px;
